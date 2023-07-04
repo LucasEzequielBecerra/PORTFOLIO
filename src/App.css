@@ -11,3 +11,7 @@ h6,
 p {
     color: #e4edf1 !important
 }
+
+a {
+    text-decoration: none;
+}
