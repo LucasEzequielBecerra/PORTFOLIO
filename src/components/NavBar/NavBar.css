@@ -145,14 +145,15 @@
 
     .nav_items {
         position: absolute;
-        top: 2.8rem;
+        top: 3.6rem;
         font-weight: 700;
-        left: 0;
-        background-color: #575756;
+        left: -1px;
+        border: solid 2px #575756;
+        border-left: none;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        width: 100%;
+        width: 70%;
         transform: translateX(-100%);
         transition: 0.3s ease all;
         padding: 0.8rem 0.5rem;
@@ -165,10 +166,11 @@
 
     .nav_items li {
         padding: 0;
+
     }
 
-    .nav_items.open li {
-        padding: 0;
+    .nav_items.open a {
+        padding: 0
     }
 
     .nav_toggle {
@@ -204,7 +206,7 @@
 
 @media (max-width: 425px) {
     .nav_items {
-        top: 3.4rem;
+        top: 3.6rem;
     }
 
     .logo-items-container p {

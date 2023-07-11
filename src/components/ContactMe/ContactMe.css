@@ -1,0 +1,20 @@
+#contact {
+    width: 70%;
+    padding: 5rem 3rem;
+    margin: 0 auto;
+}
+
+.contact-box {
+    display: flex;
+}
+
+.contact-box h2 {
+    font-size: 3rem;
+}
+
+.contact-box div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}

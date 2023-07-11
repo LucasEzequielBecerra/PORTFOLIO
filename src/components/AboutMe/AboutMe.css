@@ -7,20 +7,20 @@
 
 .about-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 5rem;
 }
 
 .skills-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 5rem;
 }
 
 .info-box {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 10rem;
 }
 
@@ -72,4 +72,33 @@ span svg {
     padding: 0.5rem;
     opacity: 0.9;
     border-radius: 0.25rem;
+}
+
+@media (max-width: 768px) {
+    #about {
+        width: 100%;
+        padding: 3rem 3rem;
+    }
+
+    .about-title,
+    .skills-title {
+        font-size: 2rem;
+    }
+
+    p svg {
+        height: 1rem;
+    }
+
+    .info-box p {
+        padding-bottom: 1rem;
+    }
+
+    .info-box {
+        margin-bottom: 5rem;
+    }
+
+    .info-box,
+    .skills-text {
+        font-size: 1.1rem;
+    }
 }

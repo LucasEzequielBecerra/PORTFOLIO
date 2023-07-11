@@ -3,6 +3,7 @@ import Hello from './components/Hello/Hello'
 import NavBar from './components/NavBar/NavBar'
 import AboutMe from './components/AboutMe/AboutMe'
 import Projects from './components/Projects/Projects'
+import ContactMe from './components/ContactMe/ContactMe'
 
 
 
@@ -13,6 +14,7 @@ const App = () => {
       <Hello/>
       <AboutMe/>
       <Projects/>
+      <ContactMe/>
     </Box>
   
   )
