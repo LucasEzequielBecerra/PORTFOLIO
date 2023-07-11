@@ -1,0 +1,75 @@
+#about {
+    margin-top: 100px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem 3rem
+}
+
+.about-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.info-box {
+    font-size: 20px;
+    margin-bottom: 10rem;
+}
+
+.info-box p {
+    margin: 0;
+}
+
+.skills-box {
+    display: flex;
+    gap: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-skill {
+    min-width: 22rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-skill span {
+    max-height: 12rem;
+    margin-bottom: 2rem;
+}
+
+span svg {
+    stroke-width: 1.5;
+    width: 9rem;
+    height: 9rem;
+    color: #0c4489;
+}
+
+.skills-text {
+    display: flex;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.skills-text span {
+    background-color: #868282;
+    font-weight: 700;
+    padding: 0.5rem;
+    opacity: 0.9;
+    border-radius: 0.25rem;
+}

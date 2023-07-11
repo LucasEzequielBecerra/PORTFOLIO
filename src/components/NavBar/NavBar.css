@@ -1,3 +1,7 @@
+#navbar {
+    width: 100%;
+}
+
 .navbar {
     background: inherit;
     display: flex;
@@ -6,6 +10,7 @@
     min-height: 2rem;
     padding: 0 32px;
     gap: 25px;
+    z-index: 1;
     /* border-bottom: 1px solid #bebebe; */
 }
 
@@ -44,14 +49,13 @@
 }
 
 
-.nav_items li {
-
-    /* margin: 0.5rem 0 0.5rem 2rem; */
-    color: #ffffff;
+.nav_items a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     position: relative;
     text-decoration: none;
     letter-spacing: 1px;
-    color: #e4edf1;
+    color: #e4edf1 !important;
     /* padding: 0.2rem 0.2rem; */
 
 }
@@ -74,7 +78,7 @@
     margin-right: .5rem;
     font-size: 1.4rem;
     border: none;
-    background-color: #fff;
+    background-color: #000;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -108,7 +112,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #575756;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -128,9 +132,7 @@
 }
 
 @media (max-width: 768px) {
-    .searcher input {
-        min-width: 22vw;
-    }
+
 
     .logo-items-container {
         flex-direction: row-reverse;
@@ -143,9 +145,10 @@
 
     .nav_items {
         position: absolute;
-        top: 2.5rem;
+        top: 2.8rem;
+        font-weight: 700;
         left: 0;
-        background: #1f1f1f;
+        background-color: #575756;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -178,7 +181,7 @@
     .nav_toggle span {
         width: 30px;
         height: 2px;
-        background: rgb(0, 0, 0);
+        background: #575756;
         margin: 3px;
         border-radius: 2px;
         transform-origin: 5px 0px;
@@ -197,10 +200,15 @@
         transform: rotate(-45deg) translatex(-1px);
     }
 
-    .searcher input::placeholder {
-        color: #575756;
-        font-size: .8rem;
-        letter-spacing: 1.5px;
-        padding-left: 10px;
+}
+
+@media (max-width: 425px) {
+    .nav_items {
+        top: 3.4rem;
+    }
+
+    .logo-items-container p {
+        font-size: 1.5rem;
+
     }
 }

@@ -21,17 +21,16 @@ new Typewriter('#typewriter', {
 
 const Hello = ( ) => {
   return (
-    <Box id='hello'>
-     
+    <section id='hello'> 
     <Box sx={{display:'flex', justifyContent:'center', alignItems: 'center', flexDirection: 'column', marginTop:'5rem'}}>
-      <Typography level='h4'> Hi 👋🏻, I am</Typography>
-      <Typography level='h1' sx={{fontWeight:'700', fontSize:'8rem', lineHeight:"7rem", background:"-webkit-linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5, #23d5ab)",backgroundSize:"250%", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", animation:`${gradient} 5s ease infinite`, display:'flex', flexDirection:'column', alignItems:'center'}}>Lucas <span>Ramos.</span></Typography>
-      <Typography level='h3' sx={{marginTop:'2rem'}}>Fronted Developer.</Typography>
+      <h2> Hi 👋🏻, I am</h2>
+      <Typography className='title-principal' level='h1' sx={{fontWeight:'700', fontSize:'8rem', lineHeight:"7rem", background:"-webkit-linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5, #23d5ab)",backgroundSize:"250%", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", animation:`${gradient} 5s ease infinite`, display:'flex', flexDirection:'column', alignItems:'center', fontFamily:'inherit'}}>Lucas <span>Ramos.</span></Typography>
+      <h2 className='sub-head'>Fronted Developer.</h2>
     </Box>
-    <Box sx={{display:'flex', justifyContent:'center', gap:'1rem', marginTop:'1rem'}}>
+    <div className='button-box'>
     <Button size='lg' sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1'}}}  >Download cv</Button>
-    <Button size='lg' sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1'} }} >Contact me</Button>
-    </Box>
+    <Button href='#contact' size='lg' sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1'} }} >Contact me</Button>
+    </div>
     <ul className='social-buttons-list'>
         <li className='item-social'>
           <a href="">
@@ -50,7 +49,7 @@ const Hello = ( ) => {
           </li>
         <div className='social-button-div'></div>
       </ul>
-    </Box>
+    </section>
   )
 }
 

@@ -6,20 +6,20 @@ const NavBar = () => {
     let [isOpen, setIsOpen] = useState(false);
 
   return (
-    <>
+    <header id="navbar">
     <Box sx={{maxHeight:'4rem'}} className="navbar">
     <Box sx={{display:'flex', alignItems:'center'}} className="logo-items-container">
-    <Typography >LUCAS</Typography>
+    <Typography sx={{fontFamily:'Poppins, sans-serif', fontWeight:700, fontSize:30}}>{ "{ lucas }" }</Typography>
     <ul  className={`nav_items ${isOpen && "open"}`}>
-      <li>
+      <a href="#about">
         About me
-      </li>
-      <li>
+      </a>
+      <a href="#projects">
 Projects
-      </li>
-      <li>
+      </a>
+      <a href="#contact">
         Contact me
-      </li>
+      </a>
     </ul>
     <div
       className={`nav_toggle ${isOpen && "open"}`}
@@ -32,7 +32,7 @@ Projects
     </Box>
     <Box className='container-dark-mode'>DARKMODE</Box>
   </Box>
-    </>
+    </header>
     )
 }
 
