@@ -10,7 +10,7 @@ const Projects = () => {
                 <img className='project-image' src="FaMusic-project-image.jpg" alt="Famusic Background Image" />
                 <div className='info-column'>
                     <h3 className='title-single-project' >FaMusic</h3>
-                    <p className='project-decription'>This project is a web model of a virtual instrument store. It has 5 sections and css animation libraries</p>
+                    <h6 className='project-decription'>This project is a web model of a virtual instrument store. It has 5 sections and css animation libraries</h6>
                     <ul className='skills-applied'>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -27,7 +27,7 @@ const Projects = () => {
                 <img className='project-image' src="Art&Air-project-image.jpg" alt="Famusic Background Image" />
                 <div className='info-column'>
                     <h3 className='title-single-project' >Art&Air</h3>
-                    <p className='project-decription'>My first project with react. Apply the technologies learned, such as context, router-dom, and the firebase implementation. The project is an e-commerce of art articles. It has cart and purchase order data. All the information, from the articles to the buyer data, is found in the firebase database</p>
+                    <h6 className='project-decription'>My first project with react. Apply the technologies learned, such as context, router-dom, and the firebase implementation. The project is an e-commerce of art articles. It has cart and purchase order data. All the information, from the articles to the buyer data, is found in the firebase database</h6>
                     <ul className='skills-applied'>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -46,7 +46,7 @@ const Projects = () => {
                 <img className='project-image' src="MovieSearcherApp-project-image.jpg" alt="Famusic Background Image" />
                 <div className='info-column'>
                     <h3 className='title-single-project' >Movie Searcher App</h3>
-                    <p className='project-decription'>This project is a movie search engine. I did it with the purpose of improving my code and my react skills. It has readable and scalable code, use of custom hooks, consumption of the OMDB api. It is still under construction</p>
+                    <h6 className='project-decription'>This project is a movie search engine. I did it with the purpose of improving my code and my react skills. It has readable and scalable code, use of custom hooks, consumption of the OMDB api. It is still under construction</h6>
                     <ul className='skills-applied'>
                     <li>HTML</li>
                     <li>CSS</li>

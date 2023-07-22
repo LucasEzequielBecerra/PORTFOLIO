@@ -2,8 +2,9 @@ import { Box, Typography, } from "@mui/material"
 import { useState } from "react"
 import { Link } from "react-scroll"
 import './NavBar.css'
+import ToggleTheme from "./ToggleTheme"
 
-const NavBar = () => {
+const NavBar = ({setIsDark, isDark}) => {
     let [isOpen, setIsOpen] = useState(false);
 
 
@@ -33,7 +34,7 @@ Projects
       <span></span>
     </div> 
     </Box>
-    <Box className='container-dark-mode'>DARKMODE</Box>
+    <Box className='container-dark-mode'><ToggleTheme setIsDark={setIsDark} isDark={isDark}/></Box>
   </Box>
     </header>
     )

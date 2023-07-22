@@ -1,7 +1,6 @@
 #navbar {
     width: 100%;
     position: fixed;
-    background-color: #202124;
     z-index: 1;
     opacity: 0.9;
 }
@@ -61,14 +60,12 @@
     position: relative;
     text-decoration: none;
     letter-spacing: 1px;
-    color: #e4edf1 !important;
     cursor: pointer;
 
 }
 
 .false a {
     font-weight: 600;
-    color: #000000;
     margin: 0;
     padding: 0;
     margin-left: 15px;
@@ -211,6 +208,7 @@
     }
 
 }
+
 
 @media (max-width: 425px) {
     .nav_items {

@@ -8,21 +8,14 @@
 
 
 body {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
     margin: 0;
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    color: #e4edf1 !important;
-    font-style: 'Lora', serif !important;
-}
 
 a {
     text-decoration: none;
