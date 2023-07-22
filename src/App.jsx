@@ -36,6 +36,14 @@ function designTheme () {
             },
             a:{
               color: '#e4edf1'
+            },
+            input:{
+              color: '#e4edf1',
+              caretColor: '#f7f7f7'
+            },
+            textarea:{
+              color: '#e4edf1',
+              caretColor: '#f7f7f7'
             }
         }}
     }
@@ -55,6 +63,7 @@ function designTheme () {
             },
               body: {
                 color: '#333333',
+                caretColor: '#000'
               },
             svg:{
               color: '#333333'
@@ -71,6 +80,13 @@ function designTheme () {
             '.nav_items':{
               backgroundColor: '#f7f7f7'
             },
+            input:{
+              color: '#333333',
+              caretColor: '#000'
+            },
+            textarea:{
+              caretColor: '#000'
+            }
           },
         },
         

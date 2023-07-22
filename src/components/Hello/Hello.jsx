@@ -28,8 +28,8 @@ const Hello = ( ) => {
       <h2 className='sub-head'>Fronted Developer.</h2>
     </Box>
     <div className='button-box'>
-    <Button size='lg' sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1'}}}  >Download cv</Button>
-    <Button href='#contact' size='lg' sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1'} }} >Contact me</Button>
+    <Button  sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1',  backgroundColor:'#0c4489'}, fontSize:'1.3rem', transition:'0.3s'}}  >Download cv</Button>
+    <Button href='#contact' sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1', backgroundColor:'#0c4489'},fontSize:'1.3rem', transition:'0.3s' }} >Contact me</Button>
     </div>
     <ul className='social-buttons-list'>
         <li className='item-social'>

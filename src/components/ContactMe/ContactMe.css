@@ -57,8 +57,6 @@ textarea {
     border: 1px solid #868282;
     padding: 0.5rem;
     border-radius: 0.4rem;
-    caret-color: #E4Edf1;
-    color: #E4Edf1;
     font-family: 'Poppins', sans-serif;
     resize: none;
     font-size: 1rem;
@@ -73,7 +71,7 @@ textarea:focus-visible {
 input::selection,
 textarea::selection {
     background-color: #0c4489;
-    color: inherit;
+
 
 }
 
