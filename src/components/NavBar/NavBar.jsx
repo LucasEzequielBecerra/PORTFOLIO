@@ -1,9 +1,12 @@
-import { Box, Typography } from "@mui/joy"
+import { Box, Typography, } from "@mui/material"
 import { useState } from "react"
+import { Link } from "react-scroll"
 import './NavBar.css'
 
 const NavBar = () => {
     let [isOpen, setIsOpen] = useState(false);
+
+
 
   return (
     <header id="navbar">
@@ -11,15 +14,15 @@ const NavBar = () => {
     <Box sx={{display:'flex', alignItems:'center'}} className="logo-items-container">
     <Typography sx={{fontFamily:'Poppins, sans-serif', fontWeight:700, fontSize:30}}>{ "{ lucas }" }</Typography>
     <ul  className={`nav_items ${isOpen && "open"}`}>
-      <a href="#about">
+      <Link onClick={()=> setIsOpen(false)} to="about" smooth={true} duration={500}>
         About me
-      </a>
-      <a href="#projects">
+      </Link>
+      <Link onClick={()=> setIsOpen(false)} to="projects" smooth={true} duration={500}>
 Projects
-      </a>
-      <a href="#contact">
+      </Link>
+      <Link onClick={()=> setIsOpen(false)} to="contact" smooth={true} duration={500}>
         Contact me
-      </a>
+      </Link>
     </ul>
     <div
       className={`nav_toggle ${isOpen && "open"}`}

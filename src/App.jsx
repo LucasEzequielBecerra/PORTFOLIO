@@ -1,4 +1,4 @@
-import { Box } from '@mui/joy'
+import {  Box, Paper, ThemeProvider, createTheme } from '@mui/material'
 import Hello from './components/Hello/Hello'
 import NavBar from './components/NavBar/NavBar'
 import AboutMe from './components/AboutMe/AboutMe'

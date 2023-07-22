@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from '@mui/joy';
+import { Box, Button, Typography } from '@mui/material';
 import Typewriter from 'typewriter-effect'
 import { keyframes } from '@emotion/react';
 import './Hello.css'
