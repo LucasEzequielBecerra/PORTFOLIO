@@ -9,11 +9,9 @@ import { useState } from 'react'
 
 
 const App = () => {
-  const [isDark, setIsDark] = useState(true)
-  
-  
-  console.log(isDark)
-
+  const themeInStorage = localStorage.getItem('theme')
+  const themeActive = themeInStorage === 'dark' ? true : false
+  const [isDark, setIsDark] = useState(themeActive)
 
 function designTheme () {
   const mode = isDark ? 'dark' : 'light'
@@ -46,6 +44,18 @@ function designTheme () {
               caretColor: '#f7f7f7'
             }
         }}
+    },
+    breakpoints:{
+      values:{
+        lg: 1024
+      },
+      MuiCssBaseline:{
+        styleOverrides:{
+          h6:{
+            color: '#e4edf1',
+          }
+        }
+      }
     }
     }
     :
@@ -72,7 +82,8 @@ function designTheme () {
               color: '#e4edf1'
             },
             h6:{
-              color:'#e4edf1  '
+              color:'#000',
+              fontWeight:'bold'
             },
             a:{
               color:'#000'

@@ -34,17 +34,24 @@
     position: absolute;
     left: 0;
     top: 2rem;
-    width: 100%;
+    width: 60%;
 
 }
 
 .project-image {
+    transition: 0.4s;
     border-radius: 0.25rem;
     width: 60%;
     height: 24rem;
     position: absolute;
     right: 0;
     object-fit: contain;
+}
+
+.project-image:hover {
+    transition: 0.4s;
+    z-index: 1;
+    opacity: 0.85;
 }
 
 .title-single-project {
@@ -55,21 +62,21 @@
 .project-decription {
     background-color: #0c4489;
     border-radius: 1.25rem;
-    width: 60%;
+    width: 80%;
     opacity: 0.9;
-    padding: 1.25rem;
-    font-size: 20px;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .skills-applied {
     list-style: none;
     display: flex;
-    font-size: 1rem;
+    font-size: 0.9rem;
     gap: 1rem;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
 }
 
 .skills-applied li {
@@ -85,7 +92,7 @@
 
 .page-info {
     display: flex;
-    width: 40%;
+    width: 60%;
     margin-top: 0.75rem;
     justify-content: flex-end;
     gap: 1.25rem;

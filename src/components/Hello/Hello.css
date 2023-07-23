@@ -26,6 +26,11 @@
     margin: 1rem auto;
 }
 
+.button-box button a {
+    color: inherit;
+    font-weight: 600;
+}
+
 .item-social {
     display: flex;
     gap: 0.5rem;

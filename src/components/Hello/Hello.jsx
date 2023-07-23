@@ -2,6 +2,7 @@ import { Box, Button, Typography } from '@mui/material';
 import Typewriter from 'typewriter-effect'
 import { keyframes } from '@emotion/react';
 import './Hello.css'
+import { Link } from 'react-scroll';
 
 const gradient = keyframes`
 0% {
@@ -28,8 +29,8 @@ const Hello = ( ) => {
       <h2 className='sub-head'>Fronted Developer.</h2>
     </Box>
     <div className='button-box'>
-    <Button  sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1',  backgroundColor:'#0c4489'}, fontSize:'1.3rem', transition:'0.3s'}}  >Download cv</Button>
-    <Button href='#contact' sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1', backgroundColor:'#0c4489'},fontSize:'1.3rem', transition:'0.3s' }} >Contact me</Button>
+    <Button  sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1',  backgroundColor:'#0c4489'}, fontSize:'1.3rem', transition:'0.3s'}}  > <a href="">Download cv</a></Button>
+    <Button sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1', backgroundColor:'#0c4489'},fontSize:'1.3rem', transition:'0.3s' }} ><Link  to="about" smooth={true} duration={500}>Contact me </Link> </Button>
     </div>
     <ul className='social-buttons-list'>
         <li className='item-social'>

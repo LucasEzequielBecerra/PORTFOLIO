@@ -16,6 +16,32 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-button:increment,
+contenedor body::-webkit-scrollbar-button {
+    display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #202124;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
 
 a {
     text-decoration: none;
