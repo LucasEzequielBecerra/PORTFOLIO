@@ -131,6 +131,7 @@
         align-items: center;
         margin-top: 1rem;
         gap: 0.7rem;
+        width: 90%;
     }
 
     .project-image {
@@ -142,7 +143,7 @@
     }
 
     .project-decription {
-        width: auto;
+        width: 100%;
         background-color: inherit;
         font-size: 1rem;
         line-height: 1.4rem;
@@ -168,4 +169,15 @@
         font-size: 1.5rem;
     }
 
+}
+
+
+@media (max-width: 425px) {
+    #projects {
+        padding: 1rem 1rem;
+    }
+
+    .info-column {
+        width: 100%;
+    }
 }
