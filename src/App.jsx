@@ -5,6 +5,8 @@ import AboutMe from './components/AboutMe/AboutMe'
 import Projects from './components/Projects/Projects'
 import ContactMe from './components/ContactMe/ContactMe'
 import { useState } from 'react'
+import Footer from './components/Footer/Footer'
+import BackToTopButton from './components/BackToTopButton'
 
 
 
@@ -116,6 +118,8 @@ function designTheme () {
       <AboutMe/>
       <Projects/>
       <ContactMe/>
+      <Footer/>
+      <BackToTopButton/>
       </Box>
     </ThemeProvider>
   
