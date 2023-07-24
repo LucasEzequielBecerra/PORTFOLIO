@@ -29,8 +29,8 @@ const Hello = ( ) => {
       <h2 className='sub-head'>Fronted Developer.</h2>
     </Box>
     <div className='button-box'>
-    <Button  sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1',  backgroundColor:'#0c4489'}, fontSize:'1.3rem', transition:'0.3s'}}  > <a target='_blank' href="">Download cv</a></Button>
-    <Button sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1', backgroundColor:'#0c4489'},fontSize:'1.3rem', transition:'0.3s' }} ><Link  to="about" smooth={true} duration={500}>Contact me </Link> </Button>
+    <Button  sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1',  backgroundColor:'#0c4489'}, fontSize:'1.3rem', transition:'0.3s'}}  > <a target='_blank' href="Professional-Curriculum-Front-End-Dev.pdf" download='LucasRamos-Resume.pdf' rel="noreferrer">Download cv</a></Button>
+    <Button sx={{ backgroundColor:'#0c4489', color:'#e4edf1', ":hover":{scale:'1.1', backgroundColor:'#0c4489'},fontSize:'1.3rem', transition:'0.3s' }} ><Link  to="contact" smooth={true} duration={500}>Contact me </Link> </Button>
     </div>
     <ul className='social-buttons-list'>
         <li className='item-social'>

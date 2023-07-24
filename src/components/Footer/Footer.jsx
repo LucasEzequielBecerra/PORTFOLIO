@@ -5,7 +5,7 @@ const Footer = () => {
     <footer id='footer'>
     <div className='footer-box'>
     <h2 className='footer-title'>Thank you for visiting my website!</h2>
-    <p>Espero tu contacto 😄</p>
+    <p>I await your contact 😄</p>
     <ul className="list-contact">
     <li className='item-social'>
           <a target='_blank' href="https://github.com/LucasEzequielBecerra" rel="noreferrer">
