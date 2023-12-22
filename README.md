@@ -7,4 +7,4 @@ This is my personal portfolio where I try to tell and show you about my knowledg
 
 ## Deployment
 
-[Deploy](https://movie-searcher-app-two.vercel.app/)
+[Deploy](https://lucasezequielramos-portfolio.vercel.app/)
