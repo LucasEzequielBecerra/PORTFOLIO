@@ -38,6 +38,7 @@
 .logo-items-container p {
     /* margin-top: 20.5px; */
     padding: 0.2rem 0.2rem;
+    cursor: default;
 }
 
 .container-dark-mode {
