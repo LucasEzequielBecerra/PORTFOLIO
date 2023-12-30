@@ -30,7 +30,6 @@
     gap: 1rem;
     position: absolute;
     left: 0;
-    top: 2rem;
     width: 60%;
 
 }
@@ -182,22 +181,26 @@
 .other-projects-box {
     width: 100%;
     display: flex;
-    align-items: center;
     gap: 5rem;
     margin-top: 3rem;
+    flex: 1 1 auto;
 
 }
 
 .other-projects-card {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    flex: 0 0 30%;
     padding: 1rem;
     align-items: center;
     border: 2px solid #868282;
     border-radius: 0.5rem;
-    flex-basis: fit-content;
-    height: 400px;
+    height: 520px;
+    width: 500px;
+}
+
+.other-projects-card p {
+    flex: 1;
 }
 
 .skills-applied-min {
@@ -206,8 +209,10 @@
     font-size: 0.9rem;
     gap: 1rem;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+
 }
 
 .skills-applied-min li {
@@ -221,6 +226,15 @@
 }
 
 .title-other-project {
+    flex: 1;
     font-size: 1.4rem;
     padding-top: 10px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex: 1;
 }

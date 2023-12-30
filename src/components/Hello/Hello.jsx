@@ -23,7 +23,7 @@ const Hello = () => {
         <h2 className='sub-head'>Fronted Developer.</h2>
       </Box>
       <div className='button-box'>
-        <Button sx={{ backgroundColor: '#0c4489', color: '#e4edf1', ':hover': { scale: '1.1', backgroundColor: '#0c4489' }, fontSize: '1.3rem', transition: '0.3s' }} > <a href="EN CV-Dev.pdf" download='LucasRamos-Resume.pdf'>Download cv</a></Button>
+        <Button sx={{ backgroundColor: '#0c4489', color: '#e4edf1', ':hover': { scale: '1.1', backgroundColor: '#0c4489' }, fontSize: '1.3rem', transition: '0.3s' }} > <a href="EN CV-Dev.pdf" download='LucasRamos-Resume.pdf' style={{ textDecoration: 'none' }}>Download cv</a></Button>
         <Button sx={{ backgroundColor: '#0c4489', color: '#e4edf1', ':hover': { scale: '1.1', backgroundColor: '#0c4489' }, fontSize: '1.3rem', transition: '0.3s' }} ><Link to="contact" smooth={true} duration={500}>Contact me </Link> </Button>
       </div>
       <ul className='social-buttons-list'>
