@@ -7,7 +7,7 @@ const Projects = () => {
       <Box className='principal-projects-box'>
         <h2 className='title-projects-section'>Projects</h2>
         <article className='single-project'>
-          <img className='project-image' src="TheWayCamp-project.png" alt="The Way Camp Background Image" />
+          <img className='project-image' src="TheWayCamp-project.webp" alt="The Way Camp Background Image" />
           <div className='info-column'>
             <h3 className='title-single-project' >The-Way-Camp</h3>
             <h6 className='project-description'>This project is a static landing page created for a camp. It has implemented figma designs and a composite structure. The CSS is made with tailwind</h6>
@@ -24,7 +24,7 @@ const Projects = () => {
           </div>
         </article>
         <article className='single-project'>
-          <img className='project-image' src="Art&Air-project-image.jpg" alt="ArtAir Background Image" />
+          <img className='project-image' src="Art&Air-project-image.webp" alt="ArtAir Background Image" />
           <div className='info-column'>
             <h3 className='title-single-project' >Art&Air</h3>
             <h6 className='project-description'>My first project with react. Apply the technologies learned, such as context, router-dom, and the firebase implementation. The project is an e-commerce of art articles. It has cart and purchase order data. All the information, from the articles to the buyer data, is found in the firebase database</h6>
@@ -43,7 +43,7 @@ const Projects = () => {
           </div>
         </article>
         <article className='single-project'>
-          <img className='project-image' src="Twitter-Clone-project.jpg" alt="Twitter Clone Background Image" />
+          <img className='project-image' src="Twitter-Clone-project.webp" alt="Twitter Clone Background Image" />
           <div className='info-column'>
             <h3 className='title-single-project' >Twitter Clone</h3>
             <h6 className='project-description'>This project is a clone of the social network Twitter with some of its functionalities. I use the technologies of NextJS, Prisma ORM, MySQL, Tailwind. Implemented use of Next Auth to handle authorization and session cookies. I implement server actions with fetch to my api routes, with header management and custom server responses.</h6>
